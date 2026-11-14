@@ -1,4 +1,3 @@
 node_modules/
-database/data.json
 .env
 .DS_Store

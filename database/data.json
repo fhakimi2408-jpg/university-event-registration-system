@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "full_name": "Muhammad Faiz Husaini",
+      "email": "faiz@siswa.upsi.edu.my",
+      "identifier": "D20241110929",
+      "password_hash": "$2a$10$a6PygrwOcnsjnBF328dZhefxs9X9YGk50c15c/H54DtzkN6QTIYty",
+      "role": "student",
+      "faculty": "Faculty of Computing and Meta-Technology",
+      "phone_number": "011-23456789"
+    },
+    {
+      "user_id": 2,
+      "full_name": "Muhammad Firdaus Hakimi",
+      "email": "firdaus@siswa.upsi.edu.my",
+      "identifier": "D20241110844",
+      "password_hash": "$2a$10$Upe9MmUXN02huhDAbQBiTuMO16y3Gk5z58DOKM9YXvOGpY1I.ndTe",
+      "role": "student",
+      "faculty": "Faculty of Computing and Meta-Technology",
+      "phone_number": "012-34567890"
+    },
+    {
+      "user_id": 3,
+      "full_name": "Dr. Suliana binti Sulaiman",
+      "email": "admin@upsi.edu.my",
+      "identifier": "STAFF001",
+      "password_hash": "$2a$10$lvvU/IZzzqinYuQJZIs/1OdmL1lDzGHlztuxtP9I/ug/O/YSbNv02",
+      "role": "admin",
+      "faculty": "Faculty of Computing and Meta-Technology",
+      "phone_number": "019-87654321"
+    }
+  ],
+  "events": [
+    {
+      "event_id": 1,
+      "event_name": "UPSI Tech Innovation Hackathon 2026",
+      "description": "Annual university 48-hour programming and software engineering hackathon.",
+      "event_date": "2026-12-05",
+      "venue": "Auditorium Bangunan E-Learning, Kampus Sultan Azlan Shah",
+      "max_participants": 120
+    },
+    {
+      "event_id": 2,
+      "event_name": "AI & Software Process Industry Seminar",
+      "description": "Keynote presentation with tech industry leaders on Staged Delivery and Agile.",
+      "event_date": "2026-11-25",
+      "venue": "Dewan Kuliah Utama 1",
+      "max_participants": 200
+    },
+    {
+      "event_id": 3,
+      "event_name": "University Sports & E-Sports Carnival",
+      "description": "Inter-faculty competitions for university students.",
+      "event_date": "2026-12-12",
+      "venue": "Kompleks Sukan UPSI",
+      "max_participants": 300
+    }
+  ],
+  "registrations": [
+    {
+      "registration_id": 1,
+      "student_id": 1,
+      "event_id": 1,
+      "participant_info": "Test2",
+      "status": "Rejected",
+      "submission_date": "2026-11-14T04:46:39.761Z",
+      "reviewed_at": "2026-11-14T04:47:09.930Z",
+      "reviewed_by": 3
+    },
+    {
+      "registration_id": 2,
+      "student_id": 2,
+      "event_id": 2,
+      "participant_info": "Interested in Software Quality Assurance seminar session",
+      "status": "Approved",
+      "submission_date": "2026-11-14T10:15:00.000Z",
+      "reviewed_at": "2026-11-14T04:47:08.046Z",
+      "reviewed_by": 3
+    }
+  ]
+}
